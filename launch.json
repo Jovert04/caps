@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://smartparking1.atwebpages.com/",
+            "url": "http://smartparking1.atwebpages.com",
             "webRoot": "${workspaceFolder}"
         }
     ]
