@@ -1,0 +1,1 @@
+console.log("Hello JavaScript"); http://localhost:3000/api/parking-slots
