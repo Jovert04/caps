@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(CEAFA-3D.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    background-color: #214b94;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    opacity: 95%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-panel {
+    background-color: #4c8efc;
+    padding: 40px;
+    border-radius: 10px;
+    width: 1200px; /* Increased width to cover more area */
+    height: 1000px; /* Increased height */
+    margin: 20px;
+    background-image: url('YOUR_BG_IMAGE_URL'); /* Optional: Set background image */
+    background-size: cover;
+    background-position: center;
+}
+
+h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+.video-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: black 1.5px solid;
+}
+
+.channels {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* One column for channel buttons */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.channel-btn {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: black 1.5px solid;
+}
+
+.channel-btn:hover {
+    background-color: #e6e6e6;
+}
+
+.full-screen-btn {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border: black 1.5px solid;
+    margin-top: 10px;
+}

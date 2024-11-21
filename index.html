@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SMART PARKING SYSTEM MONITORING - CEAFA</h1>
+        <h2>Enhancing Efficiency using Image Processing</h2>
+        <div class="content">
+            <div class="left-panel">
+                <h2>Live Video Parking</h2>
+                <div class="video-container">
+                    <iframe id="liveVideo" src="http://your-default-ip-address" frameborder="0" width="100%" height="500px"></iframe>
+                </div>
+                <h3 id="channelTitle">Channel No.1</h3>
+                <div class="channels">
+                    <button class="channel-btn" onclick="changeChannel(1)">Channel 1</button>
+                    <button class="channel-btn" onclick="changeChannel(2)">Channel 2</button>
+                    <button class="channel-btn" onclick="changeChannel(3)">Channel 3</button>
+                </div>
+                <button class="full-screen-btn" onclick="toggleFullScreen()">Full Screen</button>
+                <p>Full screen before saving</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
