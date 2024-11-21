@@ -36,5 +36,5 @@ app.get('/api/camera-ips', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running on http://smartparking1.atwebpages.com`);
+    console.log(`Server is running on http://smartparking1.atwebpages.com/index.html`);
 });
