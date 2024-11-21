@@ -16,7 +16,7 @@ function changeChannel(channelNumber) {
             channelTitle.textContent = "Channel No.3";
             break;
         default:
-            iframe.src = "http://default-channel-url";
+            iframe.src = "http://192.168.1.21:";
             channelTitle.textContent = "Channel No.1";
     }
 }
