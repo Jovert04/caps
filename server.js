@@ -6,7 +6,7 @@ const PORT = 3000;
 app.use(express.json());
 
 const cameraIPs = [
-    "http://192.168.1.21:",  // Channel 1
+    "http://192.168.1.7:",  // Channel 1
     "http://camera-ip-address-2",  // Channel 2
     "http://camera-ip-address-3",  // Channel 3
 ];
