@@ -4,7 +4,7 @@ function changeChannel(channelNumber) {
     
     switch(channelNumber) {
         case 1:
-            iframe.src = "http://192.168.1.21:";
+            iframe.src = "http://192.168.1.7:";
             channelTitle.textContent = "Channel No.1";
             break;
         case 2:
